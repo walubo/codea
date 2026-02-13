@@ -1,0 +1,13 @@
+# Laravel .gitignore
+
+/vendor/
+/node_modules/
+/.env
+/storage/*.key
+/public/hot
+/public/storage
+/storage/*.log
+.DS_Store
+/.vagrant/
+Homestead.yaml
+Homestead.json
