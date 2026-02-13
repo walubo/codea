@@ -1,0 +1,5 @@
+{\n    "name": "laravel/application",\n    "description": "The Laravel Framework",\n    "type": "library",\n    "require": {\n        "php": "^7.3 || ^8.0",\n        "fideloper/proxy":^4.4,
+        "fruitcake/laravel-cors":^2.0,
+        "guzzlehttp/guzzle":^7.0,
+        "laravel/framework":^8.0,
+        "laravel/tinker":^2.0\n    },\n    "autoload": {\n        "psr-4": {\n            "App\\":"app/"\n        }\n    },\n    "autoload-dev": {\n        "psr-4": {\n            "Tests\\":"tests/"\n        }\n    },\n    "minimum-stability": "stable",\n    "prefer-stable": true,\n    "scripts": {\n        "post-autoload-dump": [\n            "Illuminate\Foundation\ComposerScripts::postAutoloadDump",\n            "php artisan clear-compiled",\n            "php artisan optimize",\n            "php artisan route:cache",\n            "php artisan config:cache"\n        ]\n    }\n}
