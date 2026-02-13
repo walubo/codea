@@ -1,0 +1,12 @@
+# StyleCI Configuration
+
+# This is a sample configuration file for StyleCI.
+
+# Define the rules you want StyleCI to apply to your codebase.
+# For more options, visit: https://styleci.io/docs/configuration
+
+"rules": {
+    "psr2": true,
+    "no-empty": false,
+    "no-trailing-whitespace": true
+}
