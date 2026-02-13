@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Artisan file for Codea
+ */
+
+if (php_sapi_name() == 'cli') {
+    echo 'Welcome to Codea Artisan Command Line Interface!\n';
+    // Additional artisan logic here
+} else {
+    echo 'This script can only be run from the command line.';
+}
